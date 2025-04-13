@@ -15,8 +15,8 @@ const Contact = () => {
       <div className='my-10 flex flex-col justify-center md:flex-row gap-10 mb-28'>
         <img 
         className='w-full md:max-w-[480px]' 
-        src="https://sdmntprwestus.oaiusercontent.com/files/00000000-14a4-6230-b34a-a562a73ed8ec/raw?se=2025-04-11T22%3A11%3A09Z&sp=r&sv=2024-08-04&sr=b&scid=94425f31-361a-5670-a719-d7997ba21ae5&skoid=aa8389fc-fad7-4f8c-9921-3c583664d512&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-11T11%3A23%3A06Z&ske=2025-04-12T11%3A23%3A06Z&sks=b&skv=2024-08-04&sig=lUIa57lgMfB1eT6xYrwfPztSR45GKej8ycmtM1Z6vWY%3D"
-        //src={assets.contact_img} 
+        //src="https://sdmntprwestus.oaiusercontent.com/files/00000000-14a4-6230-b34a-a562a73ed8ec/raw?se=2025-04-11T22%3A11%3A09Z&sp=r&sv=2024-08-04&sr=b&scid=94425f31-361a-5670-a719-d7997ba21ae5&skoid=aa8389fc-fad7-4f8c-9921-3c583664d512&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-11T11%3A23%3A06Z&ske=2025-04-12T11%3A23%3A06Z&sks=b&skv=2024-08-04&sig=lUIa57lgMfB1eT6xYrwfPztSR45GKej8ycmtM1Z6vWY%3D"
+        src={assets.contactimg} 
         alt="ShopNest Store"
          />
         <div className='flex flex-col justify-center items-start gap-6'>
