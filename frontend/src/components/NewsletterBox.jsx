@@ -2,8 +2,12 @@ import React from 'react'
 import { Mail, Bell } from 'lucide-react'
 
 const NewsletterBox = () => {
+        const [email, setEmail] = useState('')
+
     const onSubmitHandler = (event) => {
-        event.preventDefault();
+        event.preventDefault()
+        // Handle newsletter subscription here
+        setEmail('')
     }
 
   return (
@@ -21,6 +25,8 @@ const NewsletterBox = () => {
           <input 
             className='w-full bg-transparent outline-none text-[#002443] placeholder-gray-500'
             type="email" 
+             value={email}
+             onChange={(e) => setEmail(e.target.value)}
             placeholder='Enter your email for exclusive updates'
             required
           />
